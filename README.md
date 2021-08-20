@@ -71,4 +71,4 @@ Questions about running the demo? [Open an issue](https://github.com/hieptl/uber
 - 👾 [GitHub](https://www.github.com/cometchat-pro)
 - 🔥 [Firebase](https://console.firebase.google.com)
 - 🔷 [React.js](https://reactjs.org/)
-- ✨ [Live Demo]()
+- ✨ [Live Demo](https://uber-clone-iota.vercel.app/)
