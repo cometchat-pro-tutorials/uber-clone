@@ -38,7 +38,7 @@ function Header() {
           )
         }
       </div>
-      <span className="header__logout" onClick={logout}>Logout</span>
+      <span className="header__logout" onClick={logout}><span>Logout</span></span>
     </div>
   );
 }

@@ -353,7 +353,7 @@ input {
   width: 1.5rem;
 }
 
-.header__logout:hover {
+.header__logout span:hover {
   cursor: pointer;
   opacity: 0.8;
 }

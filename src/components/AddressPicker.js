@@ -53,8 +53,8 @@ function AddressPicker(props) {
   const initProvider = () => {
     provider.current = new OpenStreetMapProvider({
       params: {
-        'accept-language': 'vn',
-        countrycodes: "vn"
+        'accept-language': 'en',
+        countrycodes: "us"
       }
     });
   }

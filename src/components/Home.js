@@ -59,7 +59,7 @@ function Home() {
    */
   const initMap = () => {
     map.current = L.map("map", {
-      center: [21.028511, 105.804817],
+      center: [38.8951, -77.0364],
       zoom: 13,
       layers: [
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -85,7 +85,8 @@ function Home() {
             weight: 6
           }
         ]
-      }
+      },
+      router: L.Routing.mapbox(`${process.env.REACT_APP_MAP_BOX_API_KEY}`)
     })
       .addTo(map.current)
       .getPlan();  
