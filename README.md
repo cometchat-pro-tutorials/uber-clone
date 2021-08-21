@@ -4,9 +4,7 @@ Read the full tutorial here: [**>> How to Build a Rideshare Site with React.JS (
 
 This example shows How to Build a Rideshare Site with React.JS (Uber Clone):
 
-<video width="600" height="240" controls>
-  <source src="./screenshots/uber.mp4" type="video/mp4">
-</video>
+![Uber Clone](/screenshots/0.gif)
 <center><figcaption>Uber Clone</figcaption></center>
 
 ## Technology
