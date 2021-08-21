@@ -51,6 +51,9 @@ REACT_APP_COMETCHAT_APP_ID=xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx
 REACT_APP_COMETCHAT_REGION=xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx
 REACT_APP_COMETCHAT_AUTH_KEY=xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx
 REACT_APP_COMETCHAT_API_KEY=xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx
+
+REACT_APP_MAP_BOX_API_KEY=xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx
+
 ```
 
 11. Make sure to exclude **.env** in your gitIgnore file from being exposed online.
