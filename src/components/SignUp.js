@@ -54,6 +54,7 @@ function SignUp(props) {
     }
     if (!validator.isMobilePhone(phone, ['vi-VN', 'en-US'])) {
       alert("Please input your phone number");
+      return false;
     }
     if (validator.isEmpty(role)) {
       alert("Please input your role");
