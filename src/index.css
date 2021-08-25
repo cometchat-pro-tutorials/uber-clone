@@ -41,6 +41,10 @@ input {
   padding-left: 2.125rem;
 }
 
+.login__logo img {
+  width: 10.25rem !important;
+}
+
 .login__welcome {
   padding-left: 10.5rem;
   padding-top: 13.5rem;
@@ -329,6 +333,10 @@ input {
   grid-gap: 1rem;
   grid-template-columns: max-content max-content;
   padding-left: 0.75rem;
+}
+
+.header__left img {
+  width: 3.25rem;
 }
 
 .header__right {
