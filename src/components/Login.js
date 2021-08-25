@@ -91,7 +91,7 @@ function Login(props) {
         <div className="login__logo">
           <img src={logoBlack} alt="Uber Clone" />
         </div>
-        <p>Get moving with Uber</p>
+        <p>Get moving with Ober</p>
       </div>
       <div className="login__form-container">
         <div className="login__form">
