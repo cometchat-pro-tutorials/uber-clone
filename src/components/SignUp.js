@@ -60,8 +60,8 @@ function SignUp(props) {
       alert("Please input your role");
       return false;
     }
-    if (validator.isEmpty(password)) {
-      alert("Please input your password");
+    if (validator.isEmpty(password) || !validator.isLength(password, {min: 6})) {
+      alert("Please input your password. You password must have at least 6 characters");
       return false;
     }
     if (validator.isEmpty(confirmPassword)) {
@@ -124,6 +124,7 @@ function SignUp(props) {
           });
         }
       }).catch((error) => {
+        console.log(error);
         setIsLoading(false);
         alert(`Cannot create your account, ${email} might be existed, please try again!`);
       }); 
